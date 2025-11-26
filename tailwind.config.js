@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         'metakas-primary': '#0B2540',
-        'metakas-accent': '#F39C12',
+        'metakas-accent': '#f35212ff',
         'metakas-teal': '#0FB2C6',
         'metakas-slate': '#2F3A47',
         'metakas-light': '#F6F7F9',

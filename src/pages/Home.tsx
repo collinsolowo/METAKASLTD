@@ -62,7 +62,7 @@ export const Home = () => {
                     top: 0,
                     left: 0,
                     width: "100%",
-                    background: "#ffb300",
+                    background: "#f35212ff",
                     padding: "7px 0",
                     fontWeight: "900",
                     whiteSpace: "nowrap",
