@@ -78,7 +78,7 @@ export const Home = () => {
                       color: "black",
                     }}
                   >
-                    METAKAS NIGERIA LIMITED —{" "}
+                    METAKAS LIMITED —{" "}
                     <span style={{ color: "red", fontWeight: "900" }}>
                       RC 1580459
                     </span>
@@ -89,6 +89,7 @@ export const Home = () => {
                 <video
                   src="https://video.wixstatic.com/video/b69019_417a64d579bb4a9d8675b7480b155948/1080p/mp4/file.mp4"
                   controls
+                  autoPlay
                   className="w-full h-80 md:h-96 lg:h-[420px] object-cover"
                 />
               </div>

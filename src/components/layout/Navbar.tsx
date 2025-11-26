@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes, FaTools } from 'react-icons/fa';
 import { useScrollTrigger } from '../../hooks/useScrollTrigger';
 import { Container } from './Container';
-
+import Logo from '../../assets/logo.jpeg'
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const isScrolled = useScrollTrigger(50);
@@ -32,13 +32,7 @@ export const Navbar = () => {
       <Container>
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3 group">
-            <motion.div
-              whileHover={{ rotate: 180 }}
-              transition={{ duration: 0.3 }}
-              className="w-10 h-10 bg-metakas-accent rounded-lg flex items-center justify-center"
-            >
-              <FaTools className="text-white text-xl" />
-            </motion.div>
+           <img src={Logo} alt="" className='logo' />
             <div className="flex flex-col">
               <span className="text-white font-heading font-bold text-xl">Metakas</span>
               <span className="text-metakas-accent text-xs font-medium">Engineering Solutions</span>
