@@ -79,7 +79,7 @@ export const Home = () => {
                     }}
                   >
                     METAKAS LIMITED —{" "}
-                    <span style={{ color: "red", fontWeight: "900" }}>
+                    <span style={{ color: "black", fontWeight: "900" }}>
                       RC 1580459
                     </span>
                   </span>
