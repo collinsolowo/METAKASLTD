@@ -13,3 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.navbar{
+    width: 100vw !important;
+}

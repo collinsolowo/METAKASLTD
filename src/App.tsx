@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white body">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
