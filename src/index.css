@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body {
+.body {
     overflow-x: hidden !important;
 }
 
